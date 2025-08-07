@@ -1,3 +1,4 @@
-function launchWorkflow() {
-  alert("Have you selected your Work Focus for today?");
+
+function loadAgent(agentName) {
+    document.getElementById("output").innerText = agentName + " is now active and responding...";
 }

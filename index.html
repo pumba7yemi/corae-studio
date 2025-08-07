@@ -2,38 +2,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>corAe Studio - Deployment Dashboard</title>
-  <style>
-    body { font-family: Arial, sans-serif; padding: 40px; background-color: #f9f9f9; }
-    h1 { color: #2b2b2b; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
-    .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-    .card h3 { margin-top: 0; }
-    .status { margin-top: 10px; font-size: 0.9em; color: gray; }
-    .button { margin-top: 10px; display: inline-block; padding: 8px 12px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>corAe Agent Interface</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>corAe Studio - Deployment Dashboard</h1>
-  <div class="grid">
-    <div class="card">
-      <h3>Zip 1 - Landing Page</h3>
-      <div class="status">✅ Deployed</div>
+    <h1>Agent Interface - Zip 5</h1>
+    <div id="agent-buttons">
+        <button onclick="loadAgent('CAIA')">Load CAIA</button>
+        <button onclick="loadAgent('CAIA.Research')">Load CAIA.Research</button>
+        <button onclick="loadAgent('CAIA.Build')">Load CAIA.Build</button>
     </div>
-    <div class="card">
-      <h3>Zip 2 - Build 2 Load</h3>
-      <div class="status">✅ Deployed</div>
-    </div>
-    <div class="card">
-      <h3>Zip 3 - Agent Panel UI</h3>
-      <div class="status">✅ Deployed</div>
-    </div>
-    <div class="card">
-      <h3>Zip 4 - Deployment Dashboard</h3>
-      <div class="status">📦 Ready for Upload</div>
-    </div>
-  </div>
+    <div id="output"></div>
+    <script src="script.js"></script>
 </body>
 </html>
