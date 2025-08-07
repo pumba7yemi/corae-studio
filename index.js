@@ -1,4 +1,7 @@
 
-// index.js
-export * from './notification_service';
-export * from './notification_settings';
+// Entry point for CMS module
+import cmsRoutes from './cms_routes.js';
+
+export default {
+    routes: cmsRoutes
+};
