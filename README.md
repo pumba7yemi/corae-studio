@@ -1,3 +1,3 @@
-# Zip 14 – AI Rules Engine
+# Zip 15 – Notification Engine
 
-This module applies AI-driven logic to corAe workflows based on custom rules.
+Handles all corAe system alerts, task pings, and CIMS/WhatsApp updates.
