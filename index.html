@@ -3,50 +3,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Agent Output Console - Zip 6</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Core Engine Trigger Console</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 2rem;
-      background: #f4f4f4;
-    }
-    h1 {
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
-    }
-    .button-group {
-      margin-bottom: 1rem;
-    }
-    button {
-      margin-right: 1rem;
-      padding: 0.5rem 1rem;
-      font-size: 1rem;
-    }
-    .console {
-      background: #fff;
-      padding: 1rem;
-      border: 1px solid #ccc;
-      margin-top: 1rem;
-      min-height: 2rem;
-      white-space: pre-wrap;
-    }
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f4f4f4; }
+    h1 { color: #333; }
+    button { padding: 10px 20px; margin: 10px 0; }
+    #output { margin-top: 20px; background: #fff; padding: 10px; border: 1px solid #ccc; }
   </style>
 </head>
 <body>
-  <h1>Agent Output Console - Zip 6</h1>
-  <div class="button-group">
-    <button onclick="loadAgent('CAIA')">Load CAIA</button>
-    <button onclick="loadAgent('CAIA.Research')">Load CAIA.Research</button>
-    <button onclick="loadAgent('CAIA.Build')">Load CAIA.Build</button>
-  </div>
-  <div id="output" class="console">Awaiting agent load...</div>
+  <h1>Core Engine Trigger Console</h1>
+  <button onclick="runTrigger('Kickstart Workflow')">Kickstart Workflow</button>
+  <button onclick="runTrigger('Run 3-Cubed Diary')">Run 3-Cubed Diary</button>
+  <button onclick="runTrigger('Activate CAIA Execution')">Activate CAIA Execution</button>
+  <div id="output"></div>
 
   <script>
-    function loadAgent(agentName) {
+    function runTrigger(triggerName) {
       const output = document.getElementById('output');
-      output.textContent = `${agentName} is now active and responding...
-[${agentName}] Ready for next instruction.`;
+      output.innerHTML += `<p>Trigger Activated: <strong>${triggerName}</strong></p>`;
     }
   </script>
 </body>
