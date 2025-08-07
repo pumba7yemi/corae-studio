@@ -2,19 +2,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>corAe Agent Interface</title>
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agent Output Console - Zip 6</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background: #f4f4f4;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .button-group {
+      margin-bottom: 1rem;
+    }
+    button {
+      margin-right: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+    }
+    .console {
+      background: #fff;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      margin-top: 1rem;
+      min-height: 2rem;
+      white-space: pre-wrap;
+    }
+  </style>
 </head>
 <body>
-    <h1>Agent Interface - Zip 5</h1>
-    <div id="agent-buttons">
-        <button onclick="loadAgent('CAIA')">Load CAIA</button>
-        <button onclick="loadAgent('CAIA.Research')">Load CAIA.Research</button>
-        <button onclick="loadAgent('CAIA.Build')">Load CAIA.Build</button>
-    </div>
-    <div id="output"></div>
-    <script src="script.js"></script>
+  <h1>Agent Output Console - Zip 6</h1>
+  <div class="button-group">
+    <button onclick="loadAgent('CAIA')">Load CAIA</button>
+    <button onclick="loadAgent('CAIA.Research')">Load CAIA.Research</button>
+    <button onclick="loadAgent('CAIA.Build')">Load CAIA.Build</button>
+  </div>
+  <div id="output" class="console">Awaiting agent load...</div>
+
+  <script>
+    function loadAgent(agentName) {
+      const output = document.getElementById('output');
+      output.textContent = `${agentName} is now active and responding...
+[${agentName}] Ready for next instruction.`;
+    }
+  </script>
 </body>
 </html>
