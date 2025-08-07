@@ -1,3 +1,3 @@
-function showAlert() {
-  alert("corAe workflow engine launching...");
+function launchWorkflow() {
+  alert("Have you selected your Work Focus for today?");
 }
