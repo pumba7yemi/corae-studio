@@ -1,0 +1,4 @@
+rules:
+  - name: tag_high_value
+    condition: 'sales > 1000'
+    action: 'tag:High-Value'

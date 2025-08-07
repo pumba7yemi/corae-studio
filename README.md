@@ -1,3 +1,3 @@
-# Zip 13 – CRM Sync & Smart Tagging Module
+# Zip 14 – AI Rules Engine
 
-This module integrates CRM sync and smart tagging.
+This module applies AI-driven logic to corAe workflows based on custom rules.
