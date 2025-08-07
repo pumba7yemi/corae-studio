@@ -1,1 +1,1 @@
-{ "theme": "light", "notifications": true }
+{ "sync_interval": "daily", "tags_enabled": true }
