@@ -1,10 +1,11 @@
-# Zip 62 – System Health Monitor (Basic)
 
-This zip provides a lightweight system health monitor for corAe Studio.
+# System Health Monitor (Backend)
 
-## Files Included:
-- `health_monitor.html`: Main HTML view
-- `health_monitor.js`: JS logic to check and report health
-- `health_monitor.css`: Minimal styling
+## Endpoints
 
-Future zips will integrate live backend signals.
+- `/health`: Returns service health status (UP/DOWN) with a timestamp.
+- `/status`: Returns CPU and Memory usage percentages.
+
+## Usage
+
+Plug into FastAPI app for real-time backend monitoring.
