@@ -1,1 +1,1 @@
-# Placeholder content for __init__.py
+# Init file for CIMS package
