@@ -1,0 +1,9 @@
+
+{
+  "channels": ["CIMS", "WhatsApp", "Email"],
+  "priority": {
+    "high": ["CIMS", "Email"],
+    "normal": ["CIMS"],
+    "low": ["Email"]
+  }
+}
