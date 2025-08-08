@@ -1,0 +1,5 @@
+
+[
+    {"txn_id": "TX123", "total": "149.99", "date": "2025-08-08T09:00:00Z", "platform": "POS"},
+    {"txn_id": "TX124", "total": "320.50", "date": "2025-08-08T10:30:00Z", "platform": "BankAPI"}
+]
