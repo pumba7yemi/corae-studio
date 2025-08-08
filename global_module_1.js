@@ -1,0 +1,1 @@
+// Sample code for global module 1
