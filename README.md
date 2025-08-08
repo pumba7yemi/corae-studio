@@ -1,7 +1,2 @@
-
-# corAe Reporting & Logging Engine
-
-This module provides internal logging and reporting capabilities across the Studio and CIMS modules.
-- Tracks user actions
-- Generates activity logs
-- Outputs usage reports
+## User Analytics Tracker
+This module enables user behavior tracking, including page visits, button clicks, and session durations.
