@@ -1,1 +1,1 @@
-Report Summary:\n\n{{ summary }}
+// Placeholder content for summary_template.txt
