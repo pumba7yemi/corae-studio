@@ -1,8 +1,2 @@
-
-{
-  "thresholds": {
-    "cpu": 80,
-    "memory": 2048
-  },
-  "logFrequency": "5min"
-}
+# This is a placeholder for config.json
+print('Loaded config.json')
