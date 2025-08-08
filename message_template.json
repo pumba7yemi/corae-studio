@@ -1,0 +1,2 @@
+# This is a placeholder for message_template.json
+print('Loaded message_template.json')
