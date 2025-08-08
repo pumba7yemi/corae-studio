@@ -1,0 +1,14 @@
+
+{
+    "workflows": [
+        {
+            "id": "onboarding_1",
+            "name": "New User Onboarding",
+            "steps": [
+                {"id": "step1", "name": "Send Welcome Email"},
+                {"id": "step2", "name": "Show Tutorial"},
+                {"id": "step3", "name": "Assign Default Tasks"}
+            ]
+        }
+    ]
+}
