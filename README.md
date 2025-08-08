@@ -1,3 +1,3 @@
-# Contents of README.md
+# Notification Display Engine
 
-# Simulated module content
+This module handles formatting and presenting notifications across CIMS, Web, and Mobile UIs.
