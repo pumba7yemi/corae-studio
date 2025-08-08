@@ -1,3 +1,3 @@
-# Zip 15 – Notification Engine
+# Contents of README.md
 
-Handles all corAe system alerts, task pings, and CIMS/WhatsApp updates.
+# Simulated module content
