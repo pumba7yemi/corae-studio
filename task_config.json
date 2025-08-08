@@ -1,0 +1,10 @@
+
+{
+  "tasks": [
+    {
+      "name": "Daily Report",
+      "time": "10:00",
+      "action": "generate_daily_report"
+    }
+  ]
+}
