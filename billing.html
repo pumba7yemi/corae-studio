@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Client Billing Module</title>
+    <link rel="stylesheet" href="billing.css" />
+</head>
+<body>
+    <div class="billing-container">
+        <h1>Client Billing Dashboard</h1>
+        <div class="billing-info">
+            <label for="client">Client:</label>
+            <input type="text" id="client" placeholder="Enter client name" />
+
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" placeholder="Enter amount" />
+
+            <label for="status">Status:</label>
+            <select id="status">
+                <option>Pending</option>
+                <option>Paid</option>
+                <option>Overdue</option>
+            </select>
+
+            <button onclick="saveInvoice()">Save Invoice</button>
+        </div>
+        <div id="invoice-log"></div>
+    </div>
+    <script src="billing.js"></script>
+</body>
+</html>

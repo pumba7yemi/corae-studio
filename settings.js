@@ -1,2 +1,4 @@
-// JS for user settings management
-const userSettings = {};
+document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Settings saved (simulated)');
+});
