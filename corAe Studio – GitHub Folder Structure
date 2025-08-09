@@ -1,0 +1,47 @@
+corae-studio/
+│
+├── README.md                     # Overview & setup instructions
+├── INSTALL_FIRST.txt              # First-time install steps
+├── OVERWRITE_OR_MERGE.md          # Merge/update guide
+│
+├── /archives                      # ALL zip builds, labeled by number
+│   ├── zip_01_core_setup.zip
+│   ├── zip_02_agent_panel.zip
+│   ├── ...
+│   └── zip_69_module_name.zip
+│
+├── /src                           # The LIVE DEPLOY code for Vercel/Railway
+│   │
+│   ├── /frontend                  # UI files
+│   │   ├── index.html
+│   │   ├── style.css
+│   │   ├── scripts.js
+│   │   └── assets/                # Images, icons
+│   │
+│   ├── /backend                   # Python / Node backend logic
+│   │   ├── cims_core_engine.py
+│   │   ├── notification_engine.py
+│   │   ├── analytics_engine.py
+│   │   └── ...
+│   │
+│   ├── /config                    # All configuration files
+│   │   ├── config.json
+│   │   ├── analytics_config.yaml
+│   │   └── rule_config.yaml
+│   │
+│   ├── /modules                   # Individual corAe modules
+│   │   ├── crm_sync_module.js
+│   │   ├── workflow_starter.js
+│   │   └── ...
+│   │
+│   └── main.js                    # App entry point
+│
+├── /docs                          # Documentation, manuals, guides
+│   ├── active_manual.md
+│   ├── training_guide.md
+│   └── sop_list.md
+│
+└── /tests                         # Automated testing scripts
+    ├── backend_tests.py
+    ├── frontend_tests.js
+    └── integration_tests.py
