@@ -1,1 +1,1 @@
-console.log('Admin panel loaded');
+console.log('corAe Studio Starter loaded');

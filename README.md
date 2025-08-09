@@ -1,2 +1,3 @@
-# This is a placeholder for README.md
-print('Loaded README.md')
+# corAe Studio Starter
+
+This is the starter build for corAe Studio.
